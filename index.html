@@ -8,4 +8,9 @@ t.AF.id=t.AF.id||i,t.AF.plugins={},o=e.createElement(n),p=e.getElementsByTagName
 o.src="https://websdk.appsflyer.com?"+(c.length>0?"st="+c.split(",").sort().join(",")+"&":"")+(i.length>0?"af_id="+i:""),
 p.parentNode.insertBefore(o,p)}(window,document,"script",0,"AF","pba","rajpba")
 </head>
+ <body>
+  // purchase event of shoes with associated revenue
+AF('pba', 'event', {eventType: 'EVENT', eventName: 'purchase', eventLabel: 'shoes',  eventRevenue: 12});
+ </body>
+
   </script>
